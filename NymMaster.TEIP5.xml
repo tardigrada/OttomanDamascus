@@ -4855,8 +4855,7 @@
                   <form xml:lang="en">Loytved-Hardegg</form>
                </nym>
                <nym xml:id="nym-S-7752">
-                  <form type="transliterated" xml:lang="ar">لسcهن</form>
-                  <form type="short" xml:lang="ar-Latn-x-ijmes">Luschan</form>
+                  <form xml:lang="de">Luschan</form>
                </nym>
                <nym xml:id="nym-S-573">
                   <form type="transliterated" xml:lang="ar">لويس</form>
@@ -4928,8 +4927,7 @@
                   <form xml:lang="en">Maitland-Kirwan</form>
                </nym>
                <nym xml:id="nym-S-596">
-                  <form type="transliterated" xml:lang="ar">مجo</form>
-                  <form type="short" xml:lang="ar-Latn-x-ijmes">Majo</form>
+                  <form type="short" xml:lang="fr">Majo</form>
                </nym>
                <nym xml:id="nym-S-626">
                   <form type="transliterated" xml:lang="ar">مجول</form>
