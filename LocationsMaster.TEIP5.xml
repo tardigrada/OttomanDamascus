@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
-<?xml-stylesheet type="text/xsl" href="../../Sente%20Georeference/KML%20v1.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><?xml-stylesheet type="text/xsl" href="../../Sente%20Georeference/KML%20v1.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
             <editionStmt>
                 <edition> <date when="2012-11-24">Nov 2012</date> </edition>
                 <respStmt>
-                    <persName xml:id="pTG"><forename>Till</forename> <surname>Grallert</surname></persName>
+                    <persName xml:id="pers_TG"><forename>Till</forename> <surname>Grallert</surname></persName>
                     <resp>contributed data</resp>
                     <!-- all contributors should be included here and their contributions should be marked with the @resp attributed
                   and a reference to the contributor's xml:id -->
@@ -73,12 +70,8 @@
                             <head>Province of Aleppo</head>
                             <place type="province" xml:id="lgn170063p">
                                 <placeName type="simple">Aleppo (Province)</placeName>
-                                <placeName n="1" type="admin" xml:lang="ar-Latn-x-ijmes"
-                                    >ḥalab
-                           vilāyeti</placeName>
-                                <placeName n="2" type="admin" xml:lang="ota-Latn-x-ijmes"
-                                    >vilāyet-i
-                           ḥalab</placeName>
+                                <placeName n="1" type="admin" xml:lang="ar-Latn-x-ijmes">ḥalab vilāyeti</placeName>
+                                <placeName n="2" type="admin" xml:lang="ota-Latn-x-ijmes">vilāyet-i ḥalab</placeName>
                                 <placeName xml:lang="en"/>
                                 <location>
                                     <geo>36.20124, 37.161171</geo>
@@ -213,11 +206,9 @@
                             <place type="province" xml:id="lgn170654p">
                                 <placeName type="simple">Damascus (Province)</placeName>
                                 <placeName type="toponym"/>
-                                <placeName n="1" type="admin" xml:lang="ota-Latn-x-ijmes"
-                                    >sūriye
+                                <placeName n="1" type="admin" xml:lang="ota-Latn-x-ijmes">sūriye
                            vilāyeti</placeName>
-                                <placeName n="2" type="admin" xml:lang="ota-Latn-x-ijmes"
-                                    >vilāyet-i
+                                <placeName n="2" type="admin" xml:lang="ota-Latn-x-ijmes">vilāyet-i
                            sūriye</placeName>
                                 <placeName n="2" type="admin" xml:lang="en">Province of Syria</placeName>
                                 <placeName xml:lang="en"/>
@@ -250,9 +241,7 @@
                                 <place type="building">
                                     <placeName type="simple">Qaddam station</placeName>
                                     <placeName xml:lang="ar-Latn-x-ijmes">Maḥaṭṭa al-Qaddam</placeName>
-                                    <placeName n="1" type="alt" xml:lang="en"
-                                        >Qaddam railway
-                              station</placeName>
+                                    <placeName n="1" type="alt" xml:lang="en">Qaddam railway station</placeName>
                                     <placeName n="2" type="alt" xml:lang="fr">Gare Kadem</placeName>
                                     <placeName n="3" type="alt" xml:lang="en">Kadem station</placeName>
                                     <location>
@@ -417,8 +406,7 @@
                                  </place>-->
                                             <place subtype="mosque" type="building" xml:id="lgn8430647">
                                                 <placeName type="toponym">Jāmi‘ as Sādāt Aqşāb</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Jāmiʿ al-Sādāt
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Jāmiʿ al-Sādāt
                                        Aqṣāb</placeName>
                                                 <placeName type="simple">al-Aqsab mosque</placeName>
                                                 <placeName xml:lang="ar-Latn-x-ijmes">al-Aqṣāb</placeName>
@@ -445,8 +433,7 @@
                                             <place subtype="mosque" type="building">
                                                 <placeName type="simple">al-Muʿallaq Mosque</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Masjid
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Masjid
                                        al-Muʿallaq</placeName>
                                                 <placeName xml:lang="en"/>
                                                 <placeName xml:lang="ar">المسجد المعلق</placeName>
@@ -471,8 +458,7 @@
                                             </place>
                                             <place type="square">
                                                 <placeName type="simple">Sāḥat al-Dawāmina</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >sāḥat
+                                                <placeName xml:lang="ar-Latn-x-ijmes">sāḥat
                                        al-dawāmina</placeName>
                                                 <placeName n="1" type="alt">al-Dawāmiyya</placeName>
                                                 <placeName n="2" type="alt">diwān square</placeName>
@@ -501,8 +487,7 @@
                                             </place>
                                             <place type="building">
                                                 <placeName type="simple">Ḥammām al-Bakrī</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Ḥammām
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Ḥammām
                                        al-Bakrī</placeName>
                                                 <location>
                                                     <geo>33.512791, 36.313565</geo>
@@ -510,8 +495,7 @@
                                             </place>
                                             <place type="street">
                                                 <placeName type="simple">Qanāyat al-Ḥuṭub</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Qanāyat
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Qanāyat
                                        al-Ḥuṭub</placeName>
                                                 <location>
                                                     <geo>33.512411, 36.312876</geo>
@@ -597,8 +581,7 @@
                                                 <placeName type="toponym"/>
                                                 <placeName n="1" type="alt">Ḥijāz railway station</placeName>
                                                 <placeName n="1" type="alt">Hijaz railway station</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Maḥaṭṭaṭ
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Maḥaṭṭaṭ
                                        al-Ḥijāz</placeName>
                                                 <location>
                                                     <geo>33.511191, 36.294872</geo>
@@ -607,8 +590,7 @@
                                             <place subtype="administration" type="building">
                                                 <placeName type="simple">New Serai</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >al-Sarāyi
+                                                <placeName xml:lang="ar-Latn-x-ijmes">al-Sarāyi
                                        al-Jadīd</placeName>
                                                 <placeName xml:lang="en"/>
                                                 <location>
@@ -627,8 +609,7 @@
                                                 </location>
                                             </place>
                                             <place subtype="mosque" type="building">
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Jāmiʿ ʿĪsā
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Jāmiʿ ʿĪsā
                                        Pasha</placeName>
                                                 <placeName type="simple">Mosque of ʿĪsā Pasha</placeName>
                                                 <placeName n="1" type="alt">Jāmiʿ al-Sarāyā</placeName>
@@ -642,8 +623,7 @@
                                                 <place type="neighbourhood" xml:id="ltg000001">
                                                     <placeName type="simple">Bab al-Jabiyya</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Bāb
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Bāb
                                           al-Jābiyya</placeName>
                                                     <placeName xml:lang="ar">باب الجابية</placeName>
                                                     <location>
@@ -663,8 +643,7 @@
                                                 <place subtype="mosque" type="building">
                                                     <placeName type="simple">Sinaniyya Mosque</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Jāmiʿ
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Jāmiʿ
                                           al-Sināniyya</placeName>
                                                     <location>
                                                         <geo>33.507832, 36.301731</geo>
@@ -695,8 +674,7 @@
                                                 </place>
                                                 <place subtype="hospital" type="building" xml:id="lwm81310">
                                                     <placeName type="simple">Ghuraba Hospital</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Ghurabāʾ
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Ghurabāʾ
                                           Hospital</placeName>
                                                     <placeName n="1" type="alt">Ḥamīdiyya Hospital</placeName>
                                                     <placeName n="2" type="alt">Mustashfā al-Ḥamīdī</placeName>
@@ -706,8 +684,7 @@
                                                 </place>
                                                 <place sameAs="#lwm81310" subtype="garden" type="building">
                                                     <placeName type="simple">Bustan al-A'jam</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Bustān
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Bustān
                                           al-Aʿjām</placeName>
                                                     <location>
                                                         <geo>33.511483, 36.291539</geo>
@@ -716,11 +693,9 @@
                                                 <place type="building" xml:id="lgn171794a">
                                                     <placeName type="simple">Baramke station</placeName>
                                                     <placeName type="toponym">Maḩaţţat Barāmikah</placeName>
-                                                    <placeName n="1" type="alt"
-                                                        >Baramke railway
+                                                    <placeName n="1" type="alt">Baramke railway
                                           station</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Maḥaṭṭaṭ
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Maḥaṭṭaṭ
                                           Barāmka</placeName>
                                                     <location>
                                                         <geo>33.509338, 36.289593</geo>
@@ -728,8 +703,7 @@
                                                 </place>
                                                 <place subtype="barracks" type="building">
                                                     <placeName type="simple">Hamidiye barracks</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Ḥamīdiyya
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Ḥamīdiyya
                                           barracks</placeName>
                                                     <location>
                                                         <geo>33.510392, 36.287581</geo>
@@ -737,14 +711,11 @@
                                                 </place>
                                                 <place subtype="mosque" type="building" xml:id="lgn7642725">
                                                     <placeName type="simple">Tekkiyya Suleymaniyya</placeName>
-                                                    <placeName type="toponym"
-                                                        >Jāmi‘ at Takīyah as
+                                                    <placeName type="toponym">Jāmi‘ at Takīyah as
                                           Sulaymānīyah</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Jāmiʿ al-Takiyya
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Jāmiʿ al-Takiyya
                                           al-Sulaymāniyya</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >al-Takiyya
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">al-Takiyya
                                           al-Sulaymāniyya</placeName>
                                                     <!--<placeName type="simple">Jāmi‘ at Takīyah as
                                     Sulaymānīyah</placeName>
@@ -756,8 +727,7 @@
                                  <placeName type="alt" n="4">Jāmi‘ at Taqīyah</placeName>
                                  <placeName type="alt" n="5">jamʿ altqyt</placeName>-->
                                                     <placeName n="6" type="alt">جامع التقية</placeName>
-                                                    <placeName n="7" type="alt"
-                                                        >جامع التكية
+                                                    <placeName n="7" type="alt">جامع التكية
                                           السليمانية</placeName>
                                                     <location>
                                                         <geo>33.51249, 36.29164</geo>
@@ -770,8 +740,7 @@
                                                 <place type="neighbourhood" xml:id="ltg000002">
                                                     <placeName type="simple">Taht al-Qala'</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Taḥt
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Taḥt
                                           al-Qalaʿ</placeName>
                                                     <placeName xml:lang="en"/>
                                                     <location>
@@ -782,11 +751,9 @@
                                                     <placeName type="simple">Mushiriyya</placeName>
                                                     <placeName type="toponym"/>
                                                     <placeName xml:lang="ar-Latn-x-ijmes">Mushīriyya</placeName>
-                                                    <placeName type="alt" xml:lang="en"
-                                                        >Military
+                                                    <placeName type="alt" xml:lang="en">Military
                                           Serai</placeName>
-                                                    <placeName type="alt" xml:lang="en"
-                                                        >Military
+                                                    <placeName type="alt" xml:lang="en">Military
                                           Headquarters</placeName>
                                                     <location>
                                                         <geo>33.510473, 36.299687</geo>
@@ -795,8 +762,7 @@
                                                 <place type="street">
                                                     <placeName type="simple">Suq al-Khuja</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Sūq
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Sūq
                                           al-Khūja</placeName>
                                                     <placeName n="1" type="alt">Sūq al-Khuja</placeName>
                                                     <placeName xml:lang="en"/>
@@ -879,8 +845,7 @@
                                             <place type="street">
                                                 <placeName type="simple">Salihiyya street</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Ṣāliḥiyya
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Ṣāliḥiyya
                                        street</placeName>
                                                 <placeName n="1" type="alt">Ṣāliḥiyya road</placeName>
                                                 <placeName xml:lang="en"/>
@@ -890,8 +855,7 @@
                                             </place>
                                             <place type="building">
                                                 <placeName type="simple">Mosque of Ibn Arabi</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Muḥī al-Dīn Ibn
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Muḥī al-Dīn Ibn
                                        ʿArabī</placeName>
                                                 <placeName n="1" type="alt">Mosque - Ibn Arabi</placeName>
                                                 <placeName n="2" type="alt">Shaikh Mohiddin Mosque</placeName>
@@ -1017,8 +981,7 @@
                                  </place>-->
                                             <place type="street">
                                                 <placeName type="simple">Suq Bab al-Barid</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq Bāb
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq Bāb
                                        al-Barīd</placeName>
                                                 <location>
                                                     <geo>33.511468, 36.305023</geo>
@@ -1037,8 +1000,7 @@
                                             <place type="street">
                                                 <placeName type="simple">Suq al-Hamidiyya</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq
                                        al-Ḥamīdiyya</placeName>
                                                 <placeName xml:lang="fr">Souk Hamidieh</placeName>
                                                 <placeName xml:lang="en"/>
@@ -1066,8 +1028,7 @@
                                             <place type="street">
                                                 <placeName type="simple">Suq al-Khayyatin</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq
                                        al-Khayyāṭīn</placeName>
                                                 <placeName xml:lang="en"/>
                                                 <location>
@@ -1077,8 +1038,7 @@
                                             <place type="street">
                                                 <placeName type="simple">Suq Midhat Pasha</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq Midḥat
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq Midḥat
                                        Pasha</placeName>
                                                 <placeName n="1" type="alt">Sūq al-Ṭawīl</placeName>
                                                 <placeName xml:lang="en"/>
@@ -1167,8 +1127,7 @@
                                             </place>
                                             <place type="street">
                                                 <placeName type="simple">Suq al-Surujiyya</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq
                                        al-Surūjiyya</placeName>
                                                 <location>
                                                     <geo>33.512491, 36.301071</geo>
@@ -1177,8 +1136,7 @@
                                             <place type="street">
                                                 <placeName type="simple">Suq al-Zarabiliyya</placeName>
                                                 <placeName type="toponym"/>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Sūq
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Sūq
                                        al-Zarābiliyya</placeName>
                                                 <placeName xml:lang="en"/>
                                                 <location>
@@ -1231,8 +1189,7 @@
                                             </location>
                                         </place>
                                         <place type="building">
-                                            <placeName notAfter="1868" type="simple"
-                                                >British
+                                            <placeName notAfter="1868" type="simple">British
                                     consulate</placeName>
                                             <placeName>Bayt Saʿīd Efendi al-Quwatlī</placeName>
                                             <location>
@@ -1246,8 +1203,7 @@
                                             <place subtype="school" type="building">
                                                 <placeName type="simple">Maktab Anbar</placeName>
                                                 <placeName xml:lang="ar-Latn-x-ijmes">Maktab ʿAnbar</placeName>
-                                                <placeName notAfter="1886-04-01" notBefore="1877-01-01" type="simple"
-                                                    >British consulate</placeName>
+                                                <placeName notAfter="1886-04-01" notBefore="1877-01-01" type="simple">British consulate</placeName>
                                                 <location>
                                                     <geo>33.509801, 36.309514</geo>
                                                 </location>
@@ -1278,8 +1234,7 @@
                                             <place type="neighbourhood" xml:id="lgn7642478">
                                                 <placeName type="simple">Mazanet ash-Shahm</placeName>
                                                 <placeName type="toponym">Mi’dhanat ash Shaḩm</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Maʾdhanat
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Maʾdhanat
                                        al-Shaḥm</placeName>
                                                 <placeName xml:lang="en">Mi’dhanat ash Shaḩm</placeName>
                                                 <placeName xml:lang="ar"/>
@@ -1289,8 +1244,7 @@
                                             </place>
                                             <place subtype="mosque" type="building">
                                                 <placeName type="simple">Madhanat al-Shahm</placeName>
-                                                <placeName xml:lang="ar-Latn-x-ijmes"
-                                                    >Maʾdhanat
+                                                <placeName xml:lang="ar-Latn-x-ijmes">Maʾdhanat
                                        al-Shaḥm</placeName>
                                                 <desc>This is the actual minarett, belonging to the later Mosque
                                        al-Ḥubūbī</desc>
@@ -1315,8 +1269,7 @@
                                                 <head>Mīdān taḥtāwī</head>
                                                 <place type="quarter" xml:id="ltg000007">
                                                     <placeName type="simple">Lower Midan</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Mīdān
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Mīdān
                                           al-taḥtāwī</placeName>
                                                     <location>
                                                         <geo>33.497191, 36.300357</geo>
@@ -1334,8 +1287,7 @@
                                                 <place subtype="mosque" type="building">
                                                     <placeName type="simple">Mosque of Murad Pasha</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Mosque of Murād
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Mosque of Murād
                                           Pasha</placeName>
                                                     <placeName n="1" type="alt">Murādiyya</placeName>
                                                     <placeName n="2" type="alt">Naqshbandiyya</placeName>
@@ -1356,8 +1308,7 @@
                                                 <place type="quarter" xml:id="lgn7642481">
                                                     <placeName type="simple">Qabratkeh</placeName>
                                                     <placeName type="toponym"/>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Qabr
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Qabr
                                           al-ʿĀtika</placeName>
                                                     <placeName xml:lang="ar"/>
                                                     <location>
@@ -1380,8 +1331,7 @@
                                                 <place type="quarter" xml:id="ltg000006">
 
                                                     <placeName type="simple">Upper Midan</placeName>
-                                                    <placeName xml:lang="ar-Latn-x-ijmes"
-                                                        >Mīdān
+                                                    <placeName xml:lang="ar-Latn-x-ijmes">Mīdān
                                           al-fawqānī</placeName>
                                                     <location>
                                                         <geo>33.489691, 36.296744</geo>
@@ -1410,8 +1360,7 @@
                                             <place type="building" xml:id="lwm1918684">
                                                 <placeName type="simple">Jizmatiyya</placeName>
                                                 <placeName xml:lang="ar-Latn-x-ijmes">Jizmātiyya</placeName>
-                                                <placeName n="1" type="alt" xml:lang="ar-ijmes"
-                                                    >Shāriʿ
+                                                <placeName n="1" type="alt" xml:lang="ar-ijmes">Shāriʿ
                                        al-Sināniyya</placeName>
                                                 <location>
                                                     <geo>33.493175, 36.298030</geo>
@@ -1454,8 +1403,7 @@
                                         </place>
 
                                         <place type="street">
-                                            <placeName corresp="#nymL000004" type="simple"
-                                                >Straight
+                                            <placeName corresp="#nymL000004" type="simple">Straight
                                     Street</placeName>
                                             <placeName type="toponym">Straight Street</placeName>
                                             <placeName xml:lang="en">Straight Street</placeName>
@@ -4593,8 +4541,7 @@
                               <placeName type="alt" n="4">Maarret enn Naamane</placeName>
                               <placeName type="alt" n="5">Maarret enn Naamâne</placeName>-->
                                         <placeName n="6" type="alt">Ma‘arrat</placeName>
-                                        <placeName n="7" type="alt" xml:lang="fr"
-                                            >Maaret
+                                        <placeName n="7" type="alt" xml:lang="fr">Maaret
                                  ul-Nou'man</placeName>
                                         <placeName n="8" type="alt">Maʿarat ul-Nuʿmān</placeName>
                                         <location>
@@ -5060,7 +5007,7 @@
 
                     <listPlace type="region">
                         <head>Irāq</head>
-                        <listPlace type="province">
+                        <listPlace type="province" corresp="#lgn99072p">
                             <head>Province of Mosul</head>
                             <place type="province" xml:id="lgn99072p">
                                 <placeName type="simple">Mosul</placeName>
@@ -5085,7 +5032,7 @@
                                 </location>
                             </place>
                         </listPlace>
-                        <listPlace type="province">
+                        <listPlace type="province" corresp="#lgn98182p">
                             <head>Province of Baghdad</head>
                             <place type="province" xml:id="lgn98182p">
                                 <placeName type="simple">Baghdad</placeName>
@@ -5110,7 +5057,7 @@
                                 </location>
                             </place>
                         </listPlace>
-                        <listPlace type="province">
+                        <listPlace type="province" corresp="#lgn99532p">
                             <head>Province of Basra</head>
                             <place type="province" xml:id="lgn99532p">
                                 <placeName type="simple">Basra</placeName>
@@ -5153,9 +5100,7 @@
                improvements could record different sets of relations in parallel &lt;listPlace&gt;
                nodes that all link to a flat tree of places.</p>
                 <p>The transscription of Arabic and Ottoman toponyms follows the IJMES paradigm.</p>
-                <p>According to TEI P5 @xml:lang should follow BCP 47 <note
-                    target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
-                    />, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of
+                <p>According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of
                transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
                IJMES transcription of Arabic in Latin script. The tag for Ottoman Turkish is "ota".
                For transcription in Latin script following an adapted IJMES transcription, it would
@@ -5183,8 +5128,8 @@
 
     </teiHeader>
     <text>
-        <body>
-            <p/>
+        <body xml:id="body_1.d1e4917">
+            <p xml:id="p_10.d1e4919"/>
         </body>
     </text>
 </TEI>
